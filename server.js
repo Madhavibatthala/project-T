@@ -6,8 +6,9 @@ const mclient = require("mongodb").MongoClient; //connecting APIs with database
 const path = require('path');
 //connect build of react app with nodejs
 app.use(exp.static(path.join(__dirname,'./build')));
+require("dotenv").config();
 //db connection url
-const DBurl = "mongodb+srv://madhavibatthala:madhavibatthala@cluster0.hyb7abb.mongodb.net/?retryWrites=true&w=majority"
+const DBurl = process.env.DATABASE_CONNECTION_URL;
 mclient.connect(DBurl) //returns client object(promise) when connection is successful
 .then((client)=>{ //consumes promise
     //get DB object
@@ -40,5 +41,6 @@ app.use((request,response,next)=>{
 app.use((error,request,response,next)=>{
     response.send({message : "error occured ",reason :`${error.message}`})
 })
+const port = process.env.PORT;
 //assigning the port number
-app.listen(2000,() => console.log ("server listening on port 2000..") );
+app.listen(port,() => console.log (`server listening on port ${port}..`) );
