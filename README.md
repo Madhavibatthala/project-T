@@ -1,6 +1,19 @@
+
 # Getting Started with Create React App
+![Screenshot (256)](https://github.com/Madhavibatthala/project-T/assets/78020106/0cad9e50-1a80-4e69-bb46-4d8c9020ca8c)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![Screenshot (256)](https://github.com/Madhavibatthala/project-T/assets/78020106/71cf2935-7dba-481a-9518-b62b72364523)
+
+![Screenshot (257)](https://github.com/Madhavibatthala/project-T/assets/78020106/b56b9117-8ccc-4f52-bc36-244cd4b1df46)
+
+![Screenshot (258)](https://github.com/Madhavibatthala/project-T/assets/78020106/2c412b2d-bf4d-4a99-ae53-510048c820a2)
+![Screenshot (259)](https://github.com/Madhavibatthala/project-T/assets/78020106/131050eb-1436-4cd0-a90e-20d41161bf6e)
+
+![Screenshot (262)](https://github.com/Madhavibatthala/project-T/assets/78020106/3464783d-d0b3-4571-aaeb-6cd7a3831c82)
+
+
 
 ## Available Scripts
 
